@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web_site_view">WebSiteViewActivity</string>
+
+    <string name="tamil">தமிழ் (Tamil)</string>
+    <string name="english">Home (English) </string>
+    <string name="telugu">తెలుగు (Telugu)</string>
+    <string name="hindi">हिन्दी (Hindi)</string>
+    <string name="bengali">বাঙালি (Bengali)</string>
+    <string name="gujarati">ગુજરાતી (Gujarati)</string>
+    <string name="kannada">ಕನ್ನಡ (Kannada)</string>
+    <string name="malayalam">മലയാളം (Malayalam)</string>
+    <string name="punjabi">ਪੰਜਾਬੀ (Punjabi)</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:checked="true"
+            android:title="@string/english" />
+    </group>
+
+    <item android:title="Languages"
+        android:checkable="true">
+        <menu>
+        <group android:id="@+id/menu_mid"
+               android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_tamil"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/tamil" />
+            <item
+                android:id="@+id/nav_malayalam"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/malayalam"/>
+            <item
+                android:id="@+id/nav_hindi"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/hindi" />
+            <item
+                android:id="@+id/nav_telugu"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/telugu" />
+            <item
+                android:id="@+id/nav_kannada"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/kannada" />
+            <item
+                android:id="@+id/nav_bengali"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/bengali"/>
+            <item
+                android:id="@+id/nav_gujarati"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/gujarati" />
+            <item
+                android:id="@+id/nav_punjabi"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/punjabi" />
+    </group>
+        </menu>
+    </item>
+
+</menu>
